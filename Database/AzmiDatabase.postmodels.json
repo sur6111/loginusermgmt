@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "6594f01f2b0786e5659b474a"
+  },
+  "content": "hello world post one",
+  "tweetBy": {
+    "$oid": "65925e6ba2c7efdae190e1fe"
+  },
+  "image": "pic1.jpg",
+  "__v": 0,
+  "comments": [
+    {
+      "commentedBy": {
+        "$oid": "65964f556d290775033a61ea"
+      },
+      "_id": {
+        "$oid": "659650106d290775033a61f0"
+      }
+    },
+    {
+      "commentedBy": {
+        "$oid": "65964f556d290775033a61ea"
+      },
+      "_id": {
+        "$oid": "659650776d290775033a61f5"
+      }
+    },
+    {
+      "commentText": "mark2 is better bthan make1",
+      "commentedBy": {
+        "$oid": "65964f556d290775033a61ea"
+      },
+      "_id": {
+        "$oid": "659651386d290775033a6201"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6594f0b9f055d57006ca780a"
+  },
+  "content": "hello world post one",
+  "image": "pic1.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65950c094cf22e339428a06e"
+  },
+  "content": "new post here",
+  "tweetBy": {
+    "$oid": "6594f6143e88d11578962d6c"
+  },
+  "image": "pic22.jpg",
+  "__v": 0,
+  "likes": []
+},
+{
+  "_id": {
+    "$oid": "6598ff978c4d65460cfe2919"
+  },
+  "content": "new post here",
+  "likes": [],
+  "tweetBy": {
+    "$oid": "6594f6143e88d11578962d6c"
+  },
+  "image": "pic22.jpg",
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6598ffaa8c4d65460cfe291c"
+  },
+  "content": "new post here now",
+  "likes": [],
+  "tweetBy": {
+    "$oid": "6594f6143e88d11578962d6c"
+  },
+  "image": "pic23.jpg",
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6598ffce8c4d65460cfe291f"
+  },
+  "content": "new post here now",
+  "likes": [],
+  "tweetBy": {
+    "$oid": "6598fd012ec600aaba05e273"
+  },
+  "image": "pic23.jpg",
+  "comments": [],
+  "__v": 0
+}]
